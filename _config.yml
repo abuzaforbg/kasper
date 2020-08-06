@@ -1,19 +1,21 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Mike Tyson vs Roy Jones Jr. Live Reddit Streaming
+description: Mike Tyson vs Roy Jones Jr. Live Stream
+meta_description: "Mike Tyson vs Roy Jones Jr. Live Stream"
+permalink: :title
 
 markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: /kasper
-domain_name: "http://yourblog-domain.com"
+baseurl: ""
+domain_name: "https://miketysonvsroyjonesjr.com"
 google_analytics: "UA-XXXXXXXX-X"
 plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url: ""
-author: "Your Name"
+author: "Lan Yan"
+author-desc: "Here goes the author description. You might want to place some links too in here"
 
 # Disqus config
 disqus-shortname: ""
