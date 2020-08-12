@@ -1,13 +1,20 @@
 ---
 layout: home
 title: "Octopress 3.0 Is Coming"
-date:   2020-08-07 10:18:00
-categories: Thriller Comedy Horror
+description: "The way Octopress is being distributed and maintained is nearing its end. There are many things I’ve always disliked about how Octopress works."
+image: /assets/AramZS/aramzs.github.io/blob/master/_includes/beamdown.gif
+date: 2020-08-05 10:18:00
+category: General
+tags:
+    - Boxing
+    - MMA
+    - UFC
 ---
 
 The way Octopress is being distributed and maintained is nearing its end. There are many things I've always disliked about how Octopress works. So before I talk about the exciting part, I'd like to tell you what's wrong with Octopress.
 
-What's wrong?
+What's wrong There?
+![Image Here](/assets/image/profile.png)
 If I'm being harsh, I'll tell you that as it is now, Octopress is basically some guy's Jekyll blog you can fork and modify. The first, and most obvious flaw, is that Octopress is distributed through Git. I want to punch through a wall when I think about users wrestling with merge conflicts from updating their sites. It’s absurd.
 
 Octopress is released as a single product, but it's a collection of plugins and configurations which are hard to disentangle. if you want to change or remove anything you're leaving the "golden path" and updates will be painful, if not impossible — short of copy and paste. Even I can't remove things from Octopress. If I want to stop maintaining a plugin it will also disappear for anyone who updates. While some have suggested using Git tags as a kind of steam-punk versioning, that simply will not solve the real problem. This isn't how software products should be distributed. Git is for collaborators; not users.

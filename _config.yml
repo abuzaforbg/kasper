@@ -9,13 +9,19 @@ logo: false
 paginate: 15
 baseurl: ""
 domain_name: "https://miketysonvsroyjonesjr.com"
-google_analytics: "UA-XXXXXXXX-X"
-plugins: [jekyll-paginate]
+google_analytics: ""
+plugins:
+  - jekyll-last-modified-at
+  - amp-jekyll
 
 # Details for the RSS feed generator
 url: ""
+ampdir: /amp/
 author: "Lan Yan"
 author-desc: "Here goes the author description. You might want to place some links too in here"
+twitter: ""
+fb_author: ""
+fb_page: ""
 
 # Disqus config
 disqus-shortname: ""
